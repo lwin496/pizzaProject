@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Site</title>
+    <style>
+        fieldset {
+            border: 1px;
+            width: 400px;
+            border-radius: 20px;
+        }
+
+        legend {
+            text-align: center;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .waifu {
+
+            width: 120px;
+            height: 80px;
+            padding: 90px;
+            border: 1px solid;
+            border-radius: 20px;
+            margin 0;
+
+
+        }
+
+        .ilulu {
+
+            width: 110px;
+            height: 120px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .page {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .padding {
+            padding: 50px;
+        }
+
+        legend {
+
+            color: cyan;
+            font-family: fantasy;
+            font-size: 20px;
+            text-shadow: -1px 3px black;
+
+        }
+
+        label {
+            font-family: fantasy;
+            font-size: 15px;
+            color: cyan;
+            text-shadow: -1px 3px black;
+        }
+
+        input[type=submit] {
+            border-radius: 20px;
+            color: #CE4A7EFF;
+            font-family: fantasy;
+            font-size: 20px;
+        }
+
+        .round {
+            border-radius: 20px;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #184A45FF;">
+    <div class="page">
+        <fieldset class="padding" style="background-color:#CE4A7EFF ;">
+            <form>
+                <legend>PIZZA FORM</legend>
+                <fieldset style="background-color:#1C1C1BFF ;">
+                    <legend>User Information</legend>
+                    <div class="center">
+                        <ul>
+                            <li>
+                                <label for=“name”>User Name : *</label>
+                                <input type=“text” id=“name” name=“name” class="round" required>
+                            </li>
+                            <li>
+                                <label for=“pswd”>Password : *</label>
+                                <input type="password" id=“pswd” name=“pswd” class="round" required>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <fieldset style="background-color:#1C1C1BFF">
+                    <legend>What drink do you want?</legend>
+                    <div class="center">
+                        <ul>
+                            <li>
+                                <label for="Coke">Coke</label>
+                                <input type="radio" id="Coke" name="Coke">
+                                <label for="Pepsi">Pepsi</label>
+                                <input type="radio" id="Pepsi" name="Pepsi">
+                                <label for="Sprite">Sprite</label>
+                                <input type="radio" id=Sprite" name="Sprite">
+                                <label for="Water">Water</label>
+                                <input type="radio" id=Water" name="Water">
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <fieldset style="background-color:#1C1C1BFF">
+                    <legend>Pizza Preference</legend>
+                    <div class="center">
+                        <ul>
+                            <li>
+                                <label for="Plain">Plain</label>
+                                <input type="checkbox" id="Plain" name="Plain">
+                                <label for="Pepperone">Pepperone</label>
+                                <input type="checkbox" id="Pepperone" name="Pepperone">
+                                <label for="Chicken">Chicken</label>
+                                <input type="checkbox" id="Chicken" name="Chicken">
+                                <label for="Sausage">Sausage</label>
+                                <input type="checkbox" id="Sausage" name="Sausage">
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instructions</legend>
+                    <center>
+                        <div class="waifu" style="background-color:#1C1C1BFF">
+                            <div>
+
+                                <input type="image" name="submit" src="ilulu.gif" class="ilulu"
+                                    title="This is ilulu, click her to submit if you want"
+                                    alt="If there is no ilulu dancing here thats a problem">
+                                <input type="submit" value="Submit?"></input>
+
+                            </div>
+                        </div>
+                    </center>
+                </fieldset>
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
